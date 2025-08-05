@@ -1,0 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.font-poppins-regular {
+  font-family: var(--font-poppins-regular);
+  font-weight: 400;
+}
+
+.font-poppins-SemiBold {
+  font-family: var(--font-poppins-SemiBold);
+  font-weight: 500;
+}
+
+.font-cormorant-bold {
+  font-family: var(--font-poppins-bold);
+  font-weight: 700;
+}
