@@ -10,3 +10,70 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
 }
+
+
+
+/* Estilização Not-Found */
+
+.pageNotFound{
+  background: linear-gradient(135deg, rgb(240, 240, 240), rgb(192, 192, 192), rgb(235, 235, 235));
+  min-height: 100vh;
+}
+
+.notFoundContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.numberError {
+  font-size: 5rem;
+  color: #414141;
+  margin: 0;
+}
+
+.textError {
+  font-size: 1.5rem;
+  font-size: 500;
+  color: #414141;
+  margin: 0;
+}
+
+.voltar {
+  background-color: #414141;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.voltar:hover {
+  background-color: #333333;
+}
+
+.inicio {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}   
+
+.inicio:hover {
+  background-color: #005f73;
+}
+
+.notFoundImage{
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
